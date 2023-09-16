@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  @apply w-full p-3 rounded-lg border-2 outline-none shadow;
+}
+
+button {
+  @apply w-full p-3 rounded-lg bg-slate-900 border-2 hover:bg-slate-600 text-white border-slate-700 shadow;
+}
+
+h1 {
+  @apply font-bold text-center;
+}
